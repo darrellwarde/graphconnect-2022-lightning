@@ -1,0 +1,21 @@
+{
+  "name": "graphconnect-2022-lightning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "introspect": "node src/introspect.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@neo4j/graphql": "^3.3.0",
+    "@neo4j/introspector": "^1.0.1",
+    "apollo-server": "^3.8.2",
+    "dotenv": "^16.0.1",
+    "graphql": "^16.5.0",
+    "neo4j-driver": "^4.4.5"
+  }
+}
